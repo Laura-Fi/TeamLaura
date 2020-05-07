@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Book a court</title>
+    <link rel="stylesheet" href="tennisStyle.css">
+</head>
+
+<body>
+    <h1>Book a court</h1>
+
+    <table style="width:100%;">
+        <tr>
+            <td>Court</td>
+            <td><select id="courtNr">
+                    <option value="volvo">Court 1</option>
+                    <option value="saab">Court 2</option>
+                    <option value="fiat">Court 3</option>
+                    <option value="audi">Court 4</option>
+                    <option value="audi">Court 5</option>
+                    <option value="audi">Court 6</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Start time</td>
+            <td><input type="time" min="07:00" max="22:00"></td>
+        </tr>
+        <tr>
+            <td>End time</td>
+            <td><input type="time" min="07:00" max="23:00"></td>
+        </tr>
+    </table>
+    <div id="buttons">
+        <button>Save</button>
+        <button>Close</button>
+    </div>
+</body>
+
+</html>

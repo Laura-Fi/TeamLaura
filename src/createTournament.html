@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tournament</title>
+    <link rel="stylesheet" href="tennisStyle.css">
+</head>
+
+<body>
+    <h1>Create a tournament</h1>
+
+    <table style="width:100%;">
+        <tr>
+            <td>Name</td>
+            <td><input class="ip" type="text"></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><input class="ip" type="date"></td>
+        </tr>
+        <tr>
+            <td>Start time</td>
+            <td><input class="ip" type="time" min="07:00" max="22:00"></td>
+        </tr>
+        <tr>
+            <td>Further information</td>
+            <td><textarea rows="7" cols="100" id="informationfield"></textarea></td>
+        </tr>
+        <tr>
+            <td>Age groups</td>
+            <td><input class="ip" type="text"></td>
+        </tr>
+    </table>
+    <div id="buttons">
+        <button>Save</button>
+        <button>Close</button>
+    </div>
+</body>
+
+</html>

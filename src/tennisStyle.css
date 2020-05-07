@@ -1,0 +1,12 @@
+table {
+    margin-left: 20px;
+}
+
+#buttons {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+input[type=text] {
+    width: 30%;
+}
