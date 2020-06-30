@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+form {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+#makeBookingLink {
+  font-size: 20px;
+}
+
+#logoutLink {
+  float: right;
+  font-size: 20px;
+}

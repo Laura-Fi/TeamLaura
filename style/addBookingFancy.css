@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+label {
+    padding-right: 30px;
+}
+
+#imgCourt {
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    outline-style: solid;  
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .col, .row {
+      outline-style: solid;
+      outline-width: 1px;
+  }
+
+  #col1 {
+      padding-top: 10px;
+  }
+
+  .court {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  #timeSlotText {
+      justify-content: center;
+  }
+
+  .time {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  #free {
+      background-color: yellowgreen;
+  }
+
+  #blocked {
+    background-color: grey;
+  }
+
+  #editable {
+    background-color: yellow;   
+}
