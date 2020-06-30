@@ -23,7 +23,7 @@
 
 <body>
     <div class="container">
-    <h1>Welcome <?php echo $_SESSION["firstName"]?>!</h1>
+    <h1>Welcome, <?php echo $_SESSION["firstName"]?>!</h1>
     <h2>These are your bookings:</h1>
     <a href="logout.php" id="logoutLink">Logout</a>
     <table class="table table-striped table-bordered">
